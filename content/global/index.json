@@ -34,7 +34,7 @@
     }
   },
   "theme": {
-    "color": "orange",
+    "color": "red",
     "font": "sans",
     "darkMode": "light"
   }
