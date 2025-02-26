@@ -5,7 +5,7 @@
       "color": "orange",
       "style": "float"
     },
-    "name": "Tina Starter",
+    "name": "PLS Printer Services",
     "color": "default",
     "nav": [
       {
@@ -34,7 +34,7 @@
     }
   },
   "theme": {
-    "color": "blue",
+    "color": "orange",
     "font": "sans",
     "darkMode": "light"
   }
