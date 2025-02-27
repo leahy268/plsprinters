@@ -14,7 +14,18 @@ module.exports = {
       white: colors.white,
       teal: colors.cyan,
       green: colors.emerald,
-      red: colors.rose,
+      red: {
+              50: "#fee2e2",  // Lightest red
+              100: "#fecaca",
+              200: "#fca5a5",
+              300: "#f87171",
+              400: "#ef4444",
+              500: "#dc2625", // Your preferred red
+              600: "#b91c1c", // Darker red for gradients
+              700: "#991b1b",
+              800: "#7f1d1d",
+              900: "#581c1c", // Darkest red,
+      },
       purple: colors.purple,
       pink: colors.pink,
       yellow: colors.yellow,

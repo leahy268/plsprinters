@@ -28,18 +28,19 @@ export default function Footer() {
 
   const footerColor = {
     default:
-      "text-gray-800 from-white to-gray-50 dark:from-gray-900 dark:to-gray-1000",
+      "text-white from-red-500 to-red-600",
     primary: {
-      blue: "text-white from-blue-500 to-blue-700",
-      teal: "text-white from-teal-500 to-teal-600",
-      green: "text-white from-green-500 to-green-600",
-      red: "text-white from-red-500 to-red-600",
-      pink: "text-white from-pink-500 to-pink-600",
-      purple: "text-white from-purple-500 to-purple-600",
-      orange: "text-white from-orange-500 to-orange-600",
-      yellow: "text-white from-yellow-500 to-yellow-600",
+      blue: "text-white from-blue-300 to-blue-500",
+      teal: "text-white from-teal-400 to-teal-500",
+      green: "text-white from-green-400 to-green-500",
+      red: "text-white from-red-400 to-red-600",
+      pink: "text-white from-pink-400 to-pink-500",
+      purple: "text-white from-purple-400 to-purple-500",
+      orange: "text-white from-orange-400 to-orange-500",
+      yellow: "text-white from-yellow-400 to-yellow-500",
     },
   };
+  
 
   const footerColorCss =
     theme?.darkMode === "primary"

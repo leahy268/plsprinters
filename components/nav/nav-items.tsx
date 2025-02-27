@@ -7,19 +7,17 @@ import Link from "next/link";
 import { useLayout } from "../layout/layout-context";
 
 const activeItemClasses = {
-  blue: "border-b-3 border-blue-200 text-blue-700 dark:text-blue-300 font-medium dark:border-blue-700",
-  teal: "border-b-3 border-teal-200 text-teal-700 dark:text-teal-300 font-medium dark:border-teal-700",
-  green:
-    "border-b-3 border-green-200 text-green-700 dark:text-green-300 font-medium dark:border-green-700",
-  red: "border-b-3 border-red-300 text-red-700 dark:text-green-300 font-medium dark:border-red-700",
-  pink: "border-b-3 border-pink-200 text-pink-700 dark:text-pink-300 font-medium dark:border-pink-700",
-  purple:
-    "border-b-3 border-purple-200 text-purple-700 dark:text-purple-300 font-medium dark:border-purple-700",
-  orange:
-    "border-b-3 border-orange-200 text-orange-700 dark:text-orange-300 font-medium dark:border-orange-700",
-  yellow:
-    "border-b-3 border-yellow-300 text-yellow-700 dark:text-yellow-300 font-medium dark:border-yellow-600",
+  blue: "border-b-4 border-white text-white font-bold dark:border-blue-400 shadow-blue-500/80",
+  teal: "border-b-4 border-white text-white font-bold dark:border-teal-400 shadow-teal-500/80",
+  green: "border-b-4 border-white text-white font-bold dark:border-green-400 shadow-green-500/80",
+  red: "border-b-4 border-white text-white font-bold dark:border-red-400 shadow-red-500/80",
+  pink: "border-b-4 border-white text-white font-bold dark:border-pink-400 shadow-pink-500/80",
+  purple: "border-b-4 border-white text-white font-bold dark:border-purple-400 shadow-purple-500/80",
+  orange: "border-b-4 border-white text-white font-bold dark:border-orange-400 shadow-orange-500/80",
+  yellow: "border-b-4 border-white text-white font-bold dark:border-yellow-400 shadow-yellow-500/80",
 };
+
+
 
 const activeBackgroundClasses = {
   blue: "text-blue-500",
@@ -50,7 +48,11 @@ export default function NavItems({ navs }: { navs: any }) {
             <Link
               data-tina-field={tinaField(item, "label")}
               href={`/${item.href}`}
-              className={`relative select-none	text-base inline-block tracking-wide transition duration-150 ease-out hover:opacity-100 py-8 px-4`}
+              className={`
+                relative select-none text-base inline-block tracking-wide transition-all 
+                duration-200 ease-out py-2 px-2 transform 
+                hover:scale-105 hover:text-white hover:border-b-4 hover:border-red-300
+              `}
             >
               {item.label}
               {currentPath === `/${item.href}` && (
