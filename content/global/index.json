@@ -1,11 +1,11 @@
 {
   "header": {
     "icon": {
-      "name": "Tina",
-      "color": "orange",
+      "name": "PlsPrinters",
+      "color": "white",
       "style": "float"
     },
-    "name": "Tina Starter",
+    "name": "PLS Printer Services",
     "color": "primary",
     "nav": [
       {
@@ -26,11 +26,11 @@
     "color": "primary",
     "social": {
       "facebook": "",
-      "twitter": "https://x.com/TinaCMS",
+      "twitter": "",
       "instagram": "",
       "linkedIn": "https://www.linkedin.com/company/tinacms",
-      "github": "https://github.com/tinacms/tinacms",
-      "youtube": "https://www.youtube.com/@TinaCMS"
+      "github": "",
+      "youtube": ""
     }
   },
   "theme": {

@@ -23,8 +23,8 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Tina",
-  description: "Tina Cloud Starter",
+  title: "Pls Printer Services",
+  description: "Serving the Towoomba and the Darling Downs region since 2001",
 };
 
 export default async function RootLayout({
@@ -57,6 +57,7 @@ export default async function RootLayout({
         {/* if you aren't deploying to github pages, feel free to delete these tags */}
         <meta name="X-Frame-Options" content="SAMEORIGIN" />
         <meta name="Content-Security-Policy" content="frame-ancestors 'self'" />
+        <meta name="apple-mobile-web-app-title" content="PLS Printers" />
       </head>
       <body
         suppressHydrationWarning

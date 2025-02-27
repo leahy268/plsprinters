@@ -22,6 +22,38 @@ export const IconOptions = {
       />
     </svg>
   ),
+  PlsPrinters: (props) => (
+    <svg
+      {...props}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      stroke="black"
+      strokeWidth="1"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <title>PlsPrinters</title>
+      <rect
+        x="4"
+        y="7"
+        width="16"
+        height="10"
+        rx="2"
+        ry="2"
+        stroke="black"
+        fill="none"
+      />
+
+      <path d="M6 17H18V21H6V17Z" stroke="black" fill="none" />
+
+      <path d="M8 7V3H16V7" stroke="black" fill="none" />
+
+      <line x1="8" y1="13" x2="16" y2="13" stroke="black" />
+
+      <line x1="8" y1="19" x2="16" y2="19" stroke="black" />
+    </svg>
+  ),
   ...BoxIcons,
 };
 

@@ -49,10 +49,11 @@ export default function NavItems({ navs }: { navs: any }) {
               data-tina-field={tinaField(item, "label")}
               href={`/${item.href}`}
               className={`
-                relative select-none text-base inline-block tracking-wide transition-all 
-                duration-200 ease-out py-2 px-2 transform 
+                relative select-none inline-block tracking-wide transition-all 
+                duration-200 ease-out py-2 px-2 transform text-md
                 hover:scale-105 hover:text-white hover:border-b-4 hover:border-red-300
-              `}
+                ${currentPath === `/${item.href}` ? 'text-md' : ''}
+              `}              
             >
               {item.label}
               {currentPath === `/${item.href}` && (

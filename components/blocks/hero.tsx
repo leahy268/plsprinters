@@ -21,8 +21,7 @@ export const Hero = ({ data }: { data: PageBlocksHero }) => {
             className="object-cover w-full h-full"
             src={data.image.src}
             alt={data.image.alt || "Hero Image"}
-            layout="fill"
-            objectFit="cover"
+            fill
           />
           {/* Overlay gradient for better readability */}
           <div className="absolute inset-0 bg-gradient-to-r from-black to-transparent opacity-40"></div>
